@@ -72,7 +72,7 @@ jobs:
       id: compile
       run: |
         
-        make 
+        make-uboot.sh fritz4040
       
 
     - name: Upload binaries
